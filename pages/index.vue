@@ -9,7 +9,7 @@
         <img src="https://media.restorationhardware.com/is/content/rhis/beach_house/RH-logo-white.svg" alt="RH Beach Logo">
       </div>
       <div class="text-center absolute hero-cta w-full">
-        <a class="button p-4" href="/shopAllBeach">SHOP ALL BEACH &#8594;</a>
+        <a class="button p-4" href="https://intb-www.restorationhardware.com/content/category.jsp?context=BeachHouseShopAll">SHOP ALL BEACH &#8594;</a>
         <a class="button p-4" href="https://catalogs.restorationhardware.com/RH-Outdoor/1/">SHOP SOURCE BOOK &#8594;</a>
       </div>
       <div id="arrow" class="arrow">

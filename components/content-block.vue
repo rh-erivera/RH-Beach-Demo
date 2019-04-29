@@ -4,7 +4,6 @@
       <img :src="content.medImgLeft" :alt="content.medImgLeftAlt">
     </div>
     <div class="content-copy-right py-8 md:pb-0 md:pl-12 w-full md:w-1/2">
-      <p class="copy pb-2" v-text="content.rightHeaderLocation" />
       <img class="pb-4 w-3/4" :src="content.rightHeader" :alt="content.rightHeaderAlt">
       <p class="copy" v-text="content.copyRight" />
       <a class="cta" :href="content.exploreLinkRight">EXPLORE &#8594;</a><br>
@@ -14,7 +13,6 @@
       <img :src="content.lgImgRight" :alt="content.lgImgRightAlt">
     </div>
     <div class="content-copy-left text-right py-8 md:pb-0 md:pr-12 w-full md:w-1/2">
-      <p class="copy pb-2" v-text="content.leftHeaderLocation" />
       <img class="pb-4 w-3/4 margin-left-25" :src="content.leftHeader" :alt="content.leftHeaderAlt">
       <p class="copy" v-text="content.copyLeft" />
       <a class="cta" :href="content.exploreLinkLeft">EXPLORE &#8594;</a><br>

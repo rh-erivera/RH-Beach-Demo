@@ -22,5 +22,29 @@
         "smImgLeftAlt": "Black amd white photo of beach with furniture and ocean in the background",
         "lgImgLeft": "https://media.restorationhardware.com/is/image/rhis/BH-losCabos-steamedOak-lg?wid=1573&fmt=jpeg",
         "lgImgLeftAlt": "Living room with sofa, coffee table, chandeliers and ocean in the background"
+    },
+    "block2": {
+        "medImgLeft": "https://media.restorationhardware.com/is/image/rhis/BH_Malibu_ConcreteSlab_Md?wid=940&fmt=jpeg",
+        "medImgLeftAlt": "Urn infront of chair with cusion",
+        "rightHeaderLocation": "MALIBU",
+        "rightHeader": "https://media.restorationhardware.com/is/content/rhis/beach_house/BH_Malibu_ConcreteSlab_Text.svg",
+        "rightHeaderAlt": "Sydney header text",
+        "copyRight": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua.",
+        "exploreLinkRight": "",
+        "smImgRight": "https://media.restorationhardware.com/is/image/rhis/SydneyTestHero_2?wid=444&fmt=jpeg",
+        "smImgRightAlt": "Ocean View of rock from modern home",
+        "lgImgRight": "https://media.restorationhardware.com/is/image/rhis/BH_Malibu_ConcreteSlab_Lg?wid=1573&fmt=jpeg",
+        "lgImgRightAlt": "Living room with big whicker chandeliers and ocean in the background",
+        "medImgRight": "https://media.restorationhardware.com/is/image/rhis/BH_Malibu_ScarredCharred_Md?wid=946&fmt=jpeg",
+        "medImgRightAlt": "Chair in living room, infront of fireplace and wood door",
+        "leftHeaderLocation": "MALIBU",
+        "leftHeader": "https://media.restorationhardware.com/is/content/rhis/beach_house/BH_Malibu_ScarredCharred_Text.svg",
+        "leftHeaderAlt": "Big Sur header text",
+        "copyLeft": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua.",
+        "exploreLinkLeft": "https://www.restorationhardware.com",
+        "smImgLeft": "https://media.restorationhardware.com/is/image/rhis/BH_Malibu_ScarredCharred_Sm?wid=430&fmt=jpeg",
+        "smImgLeftAlt": "Black amd white photo of beach with furniture and ocean in the background",
+        "lgImgLeft": "https://media.restorationhardware.com/is/image/rhis/BH_Malibu_ScarredCharred_Lg?wid=1573&fmt=jpeg",
+        "lgImgLeftAlt": "Living room with sofa, coffee table, chandeliers and ocean in the background"
     }
 }

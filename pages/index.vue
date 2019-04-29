@@ -1,0 +1,62 @@
+<template>
+  <div id="root">
+    <div class="hero fadeIn relative">
+      <!-- <img src="https://media.restorationhardware.com/is/image/rhis/RHBH_comingsoon_splash?wid=2000&fmt=jpeg" alt="RH Beach House Comming Soon Teaser"> -->
+      <video loop autoplay muted poster="https://media.restorationhardware.com/is/image/rhis/RHBeach_Hero?wid=2000&fmt=jpeg">
+        <source src="https://media.restorationhardware.com/is/content/rhis/Beach House Spec V7" type="video/mp4">
+      </video>
+      <div class="absolute logo">
+        <img src="https://media.restorationhardware.com/is/content/rhis/beach_house/RH-logo-white.svg" alt="RH Beach Logo">
+      </div>
+      <div class="text-center absolute hero-cta w-full">
+        <a class="button p-4" href="/shopAllBeach">SHOP ALL BEACH &#8594;</a>
+        <a class="button p-4" href="https://catalogs.restorationhardware.com/RH-Outdoor/1/">SHOP SOURCE BOOK &#8594;</a>
+      </div>
+      <div id="arrow" class="arrow">
+        <img src="https://media.restorationhardware.com/is/content/rhis/beach_house/scrollDownArrow.svg" alt="bouncing scroll down arrow">
+      </div>
+    </div>
+    <div class="container">
+      <div class="intro-copy copy fadeIn md:pr-8 xl:pr-12 py-12 md:py-16 xl:py-20">
+        <p>The crowds start to disperse the minute you clear customs in Cancun. The vast majority of the American’s head straight for the cabs that will whisk them a few minutes away to the mega resorts, all you can eat restaurants and swim up bars of Cancun. Another wave.</p>
+      </div>
+      <contentBlock v-for="(block, index) in content" :key="index" :content="block" />
+    </div>
+  </div>
+</template>
+
+<script>
+import contentBlock from '~/components/content-block'
+import content from '~/assets/content/content'
+
+export default {
+  components: {
+    contentBlock
+  },
+  data() {
+    return {
+      content: content
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  // created() {
+  //   window.addEventListener('scroll', this.handleScroll)
+  // },
+  // destroyed() {
+  //   window.removeEventListener('scroll', this.handleScroll)
+  // },
+  methods: {
+    handleScroll(event) {
+      const currentScrollPos = window.scrollY
+      if (currentScrollPos >= 100) {
+        document.getElementById('arrow').style.opacity = '0'
+      }
+      if (currentScrollPos < 100) {
+        document.getElementById('arrow').style.opacity = '1'
+      }
+    }
+  }
+}
+</script>

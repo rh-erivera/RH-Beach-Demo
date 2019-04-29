@@ -1,0 +1,26 @@
+{
+    "block1": {
+        "medImgLeft": "https://media.restorationhardware.com/is/image/rhis/BH-sydney-chair?wid=940&fmt=jpeg",
+        "medImgLeftAlt": "Urn infront of chair with cusion",
+        "rightHeaderLocation": "SYDNEY",
+        "rightHeader": "https://media.restorationhardware.com/is/content/rhis/beach_house/BH_STEAMED_OAK.svg",
+        "rightHeaderAlt": "Sydney header text",
+        "copyRight": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua.",
+        "exploreLinkRight": "/locationSydney",
+        "smImgRight": "https://media.restorationhardware.com/is/image/rhis/SydneyTestHero_2?wid=444&fmt=jpeg",
+        "smImgRightAlt": "Ocean View of rock from modern home",
+        "lgImgRight": "https://media.restorationhardware.com/is/image/rhis/Sydney_Hot_Spots?wid=1801&fmt=jpeg",
+        "lgImgRightAlt": "Living room with big whicker chandeliers and ocean in the background",
+        "medImgRight": "https://media.restorationhardware.com/is/image/rhis/BH-losCabos-steamedOak-md?wid=1880&fmt=jpeg",
+        "medImgRightAlt": "Chair in living room, infront of fireplace and wood door",
+        "leftHeaderLocation": "LOS CABOS",
+        "leftHeader": "https://media.restorationhardware.com/is/content/rhis/beach_house/BH_STEAMED_OAK_rightAlign.svg",
+        "leftHeaderAlt": "Big Sur header text",
+        "copyLeft": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua.",
+        "exploreLinkLeft": "https://www.restorationhardware.com",
+        "smImgLeft": "https://media.restorationhardware.com/is/image/rhis/BH-losCabos-steamedOak-sm?wid=430&fmt=jpeg",
+        "smImgLeftAlt": "Black amd white photo of beach with furniture and ocean in the background",
+        "lgImgLeft": "https://media.restorationhardware.com/is/image/rhis/BH-losCabos-steamedOak-lg?wid=1573&fmt=jpeg",
+        "lgImgLeftAlt": "Living room with sofa, coffee table, chandeliers and ocean in the background"
+    }
+}

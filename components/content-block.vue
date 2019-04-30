@@ -29,6 +29,7 @@
 
 <script>
 import ScrollReveal from 'scrollreveal'
+import imagesLoaded from 'imagesloaded'
 
 export default {
   props: {
@@ -39,14 +40,26 @@ export default {
   },
   mounted() {
     // Scroll Reveal Constructor
-    ScrollReveal({ reset: true, duration: 1500 })
-    ScrollReveal().reveal('.med-img')
-    ScrollReveal().reveal('.header')
-    ScrollReveal().reveal('.copy')
-    ScrollReveal().reveal('.cta')
-    ScrollReveal().reveal('.sm-img')
-    ScrollReveal().reveal('.lrg-img-right')
-    ScrollReveal().reveal('.lrg-img-left')
+    imagesLoaded( document.querySelector('img'), function( instance ) {
+      ScrollReveal({ reset: true, duration: 1500 })
+      ScrollReveal().reveal('.med-img')
+      ScrollReveal().reveal('.header')
+      ScrollReveal().reveal('.copy')
+      ScrollReveal().reveal('.cta')
+      ScrollReveal().reveal('.sm-img')
+      ScrollReveal().reveal('.lrg-img-right')
+      ScrollReveal().reveal('.lrg-img-left')
+    })
+    // imgLoad.on( 'always', function( instance ) {
+    //   ScrollReveal({ reset: true, duration: 1500 })
+    //   ScrollReveal().reveal('.med-img')
+    //   ScrollReveal().reveal('.header')
+    //   ScrollReveal().reveal('.copy')
+    //   ScrollReveal().reveal('.cta')
+    //   ScrollReveal().reveal('.sm-img')
+    //   ScrollReveal().reveal('.lrg-img-right')
+    //   ScrollReveal().reveal('.lrg-img-left')
+    // })
   }
 }
 </script>

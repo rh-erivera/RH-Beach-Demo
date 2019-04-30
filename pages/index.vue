@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="intro-copy copy fadeIn md:pr-8 xl:pr-12 py-12 md:py-16 xl:py-20">
+      <div class="intro-copy copy md:pr-8 xl:pr-12 py-12 md:py-16 xl:py-20">
         <p>The crowds start to disperse the minute you clear customs in Cancun. The vast majority of the American’s head straight for the cabs that will whisk them a few minutes away to the mega resorts, all you can eat restaurants and swim up bars of Cancun. Another wave.</p>
       </div>
       <contentBlock v-for="(block, index) in content" :key="index" :content="block" />

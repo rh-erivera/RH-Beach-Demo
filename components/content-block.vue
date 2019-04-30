@@ -1,28 +1,28 @@
 <template>
   <div class="content-block">
     <div class="med-img w-full md:w-1/2">
-      <img :src="content.medImgLeft" :alt="content.medImgLeftAlt">
+      <a :href="content.exploreLinkRight"><img :src="content.medImgLeft" :alt="content.medImgLeftAlt"></a>
     </div>
     <div class="content-copy-right py-8 md:pb-0 md:pl-12 w-full md:w-1/2">
-      <img class="header pb-4 w-3/4" :src="content.rightHeader" :alt="content.rightHeaderAlt">
-      <p class="copy w-3/4" v-text="content.copyRight" />
+      <a class="header pb-4 w-3/4" :href="content.exploreLinkRight"><img :src="content.rightHeader" :alt="content.rightHeaderAlt"></a>
+      <a class="copy w-3/4" :href="content.exploreLinkRight"><p v-text="content.copyRight" /></a>
       <a class="cta" :href="content.exploreLinkRight">EXPLORE &#8594;</a><br>
-      <img class="w-3/5 sm-img" :src="content.smImgRight" :alt="content.smImgRightAlt">
+      <a class="w-3/5 sm-img" :href="content.exploreLinkRight"><img :src="content.smImgRight" :alt="content.smImgRightAlt"></a>
     </div>
     <div class="md:w-4/5 md:mt-12 pb-20 lrg-img-right">
-      <img :src="content.lgImgRight" :alt="content.lgImgRightAlt">
+      <a :href="content.exploreLinkRight"><img :src="content.lgImgRight" :alt="content.lgImgRightAlt"></a>
     </div>
     <div class="content-copy-left text-right py-8 md:pb-0 md:pr-12 w-full md:w-1/2">
-      <img class="header pb-4 w-3/4 margin-left-25" :src="content.leftHeader" :alt="content.leftHeaderAlt">
-      <p class="copy w-3/4 margin-left-25" v-text="content.copyLeft" />
+      <a class="header pb-4 w-3/4 margin-left-25" :href="content.exploreLinkLeft"><img :src="content.leftHeader" :alt="content.leftHeaderAlt"></a>
+      <a class="copy w-3/4 margin-left-25" :href="content.exploreLinkLeft"><p v-text="content.copyLeft" /></a>
       <a class="cta" :href="content.exploreLinkLeft">EXPLORE &#8594;</a><br>
-      <img class="w-3/5 margin-left-40 sm-img" :src="content.smImgLeft" :alt="content.smImgLeftAlt">
+      <a class="w-3/5 margin-left-40 sm-img" :href="content.exploreLinkLeft"><img :src="content.smImgLeft" :alt="content.smImgLeftAlt"></a>
     </div>
     <div class="med-img w-full pb-8 md:pb-0 md:w-1/2">
-      <img :src="content.medImgRight" :alt="content.medImgRightAlt">
+      <a :href="content.exploreLinkLeft"><img :src="content.medImgRight" :alt="content.medImgRightAlt"></a>
     </div>
     <div class="md:w-4/5 md:mt-12 pb-20 lrg-img-left">
-      <img :src="content.lgImgLeft" :alt="content.lgImgLeftAlt">
+      <a :href="content.exploreLinkLeft"><img :src="content.lgImgLeft" :alt="content.lgImgLeftAlt"></a>
     </div>
   </div>
 </template>

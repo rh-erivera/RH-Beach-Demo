@@ -68,8 +68,11 @@
      margin-left: 40%;
  }
  .container {
-     margin: 0 auto;
-     padding: 0 5%;
+    margin: 0 auto;
+    padding: 0 5%;
+ }
+ .med-img img {
+    height: 100%;
  }
  @keyframes fadeIn {
      from { opacity: 0; }

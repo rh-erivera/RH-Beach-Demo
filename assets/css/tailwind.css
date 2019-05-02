@@ -43,6 +43,13 @@
      transform: translate(-50%, -50%);
      width: 20%;
  }
+ .date {
+    bottom: 5%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 10%;
+ }
  .hero-cta {
      color: white;
      bottom: 10%;

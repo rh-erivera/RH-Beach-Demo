@@ -29,7 +29,7 @@
 
 <script>
 import ScrollReveal from 'scrollreveal'
-import imagesLoaded from 'imagesloaded'
+// import imagesLoaded from 'imagesloaded'
 
 export default {
   props: {
@@ -40,7 +40,8 @@ export default {
   },
   mounted() {
     // Scroll Reveal Constructor
-    imagesLoaded( document.querySelector('img'), function( instance ) {
+    // imagesLoaded( document.querySelector('img'), function( instance ) {
+    window.addEventListener('load', () => {
       ScrollReveal({ reset: true, duration: 1500 })
       ScrollReveal().reveal('.med-img')
       ScrollReveal().reveal('.header')

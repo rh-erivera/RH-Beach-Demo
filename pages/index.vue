@@ -3,7 +3,7 @@
     <div class="hero fadeIn relative">
       <!-- <img src="https://media.restorationhardware.com/is/image/rhis/RHBH_comingsoon_splash?wid=2000&fmt=jpeg" alt="RH Beach House Comming Soon Teaser"> -->
       <video loop autoplay muted>
-        <source src="https://media.restorationhardware.com/is/content/rhis/Beach House Spec V7" type="video/mp4">
+        <source src="https://media.restorationhardware.com/is/content/rhis/Waves_v1" type="video/mp4">
       </video>
       <div class="absolute logo">
         <img src="https://media.restorationhardware.com/is/content/rhis/beach_house/RH-logo-white.svg" alt="RH Beach Logo">

@@ -17,10 +17,13 @@
       </div>
     </div>
     <div class="container">
-      <div class="intro-copy copy md:pr-8 xl:pr-12 py-12 md:py-16 xl:py-20">
+      <div class="intro-copy text-center copy p-12 md:p-16 xl:p-20">
         <p>The crowds start to disperse the minute you clear customs in Cancun. The vast majority of the American’s head straight for the cabs that will whisk them a few minutes away to the mega resorts, all you can eat restaurants and swim up bars of Cancun. Another wave.</p>
       </div>
       <contentBlock v-for="(block, index) in content" :key="index" :content="block" />
+      <div class="text-center py-12">
+        <a class="button-black py-6 px-8" href="https://intb-www.restorationhardware.com/content/category.jsp?context=BeachHouseShopAll">SHOP ALL BEACH &#8594;</a>
+      </div>
     </div>
   </div>
 </template>

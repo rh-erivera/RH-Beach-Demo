@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "imagesloaded": "^4.1.4",
     "nuxt": "^2.4.0",
+    "nuxt-purgecss": "^0.2.1",
     "scrollreveal": "^4.0.5"
   },
   "devDependencies": {

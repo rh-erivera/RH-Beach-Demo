@@ -1,4 +1,5 @@
 import pkg from './package'
+import path from 'path'
 
 export default {
   mode: 'spa',
@@ -35,19 +36,29 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/imagesLoaded'
+
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
-  ],
 
+  ],
   /*
   ** Build configuration
   */
   build: {
+    postcss: {
+      plugins: {
+        'tailwindcss': path.resolve('./tailwind.js')
+      },
+      preset: { 
+        autoprefixer: { 
+          grid: true 
+        } 
+      }
+    },
     /*
     ** You can extend webpack config here
     */

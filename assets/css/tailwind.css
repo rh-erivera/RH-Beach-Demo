@@ -27,17 +27,15 @@
      width: 100%;
  }
  .copy {
-     font: 12px/13px proxima-nova, sans-serif;
-     font-weight: 300;
+     font: 16px/17px proxima-nova, sans-serif;
+     font-weight: 100;
      font-style: normal;
      color: #333;
      text-transform: uppercase;
  }
  .cta {
-     font-size: 10px;
-     font-weight: 500;
-     text-decoration: none;
-     padding: 0.5rem 0;
+    font-size: 10px;
+    padding: 1rem 0;
  }
  .logo {
      left: 50%;
@@ -58,7 +56,7 @@
  }
  .button {
      color: #636466;
-     font-size: 14px;
+     font-size: 10px;
      font-weight: 500;
  }
  .button-black {
@@ -113,11 +111,14 @@
    
  @screen md {
      .copy {
-         font-size: 14px;
-         line-height: 15px;
-     },
+        font-size: 18px;
+        line-height: 19px;
+     }
+     .button {
+        font-size: 14px;
+     }
      .cta, .hero-cta {
-         font-size: 11px;
+        font-size: 11px;
      }
      .lrg-img-left {
          margin-right: 20%;
@@ -128,8 +129,8 @@
  }
  @screen lg {
      .copy {
-         font-size: 16px;
-         line-height: 17px;
+         font-size: 20px;
+         line-height: 21px;
      }
  }
  @screen xl {
@@ -137,8 +138,8 @@
          padding: 0;
      }
      .copy {
-         font-size: 18px;
-         line-height: 19px;
+         font-size: 24px;
+         line-height: 25px;
      },
      .cta, .hero-cta {
          font-size: 12px;
